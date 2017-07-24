@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void coinResponseCall() {
-        Log.e("Log","Calling.......");
+        Log.e("Log","Calling.....3..");
 
         Call<ArrayList<CoinResponse>>arrayListCall=coinService.coinListCall();
 
